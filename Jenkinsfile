@@ -53,7 +53,7 @@ pipeline {
             steps {
                 sh '''
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=Online-cohort-project \
+                    -Dsonar.projectKey=abdullah_almutaywia \
                     -Dsonar.host.url=http://$SONAR_IP \
                     -Dsonar.login=$SONAR_TOKEN
                 '''
