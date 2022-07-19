@@ -8,7 +8,7 @@ pipeline {
 
         AWS_S3_BUCKET = "artifact-bucket-repo"
         ARTIFACT_NAME = "hello-world.war"
-        AWS_EB_APP_NAME = " jave-webapp"
+        AWS_EB_APP_NAME = "jave-webapp"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Javewebapp-env"
         SONAR_IP = "54.226.50.200"
